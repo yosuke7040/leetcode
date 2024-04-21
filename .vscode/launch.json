@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Python: LeetCode",
+          "type": "python",
+          "request": "launch",
+          "program": "${file}",
+          "console": "integratedTerminal",
+          "env": {
+              "LEETCODE_WORKSPACE_FOLDER": "${workspaceFolder}",
+              "LEETCODE_PROBLEM_NAME": "${fileBasenameNoExtension}"
+          }
+      }
+  ]
+}
